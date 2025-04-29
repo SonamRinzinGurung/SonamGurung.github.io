@@ -3,7 +3,7 @@ import { NavLink } from "react-router"
 const NavBar = () => {
     return (
         <div className='flex gap-2 md:gap-8 ml-auto my-6 flex-wrap'>
-            <NavLink to={""} end={true}
+            <NavLink to={"/"} end={true}
                 className={({ isActive }) => `
                  ${isActive ? "text-teal-500" : ""}
                 font-semibold

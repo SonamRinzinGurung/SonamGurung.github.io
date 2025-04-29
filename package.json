@@ -2,7 +2,7 @@
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://sonamrinzingurung.github.io/portfolio/",
+  "homepage": "https://sonamrinzingurung.github.io/",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
