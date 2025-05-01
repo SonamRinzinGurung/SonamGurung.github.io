@@ -5,7 +5,7 @@ import { Link } from "react-router";
 const Homepage = () => {
     return (
         <div className="flex flex-col gap-8">
-            <div>
+            <div className="flex flex-col">
                 <img src={profileImg} alt="profile-image" className="w-32 rounded-full" />
                 <h2>Sonam Gurung</h2>
                 <p>Master's student at <a href="https://www.usd.edu/" className="text-teal-500 font-semibold" target="_blank">University of South Dakota</a></p>
