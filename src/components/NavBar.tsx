@@ -25,11 +25,6 @@ const NavBar = () => {
                  ${isActive ? "text-teal-500" : ""}
                 font-semibold`}
             >Blogs</NavLink>
-            <NavLink to={"contact"}
-                className={({ isActive }) => `
-                 ${isActive ? "text-teal-500" : ""}
-               font-semibold `}
-            >Contact</NavLink>
 
             <div className="font-semibold">CV</div>
         </div>
