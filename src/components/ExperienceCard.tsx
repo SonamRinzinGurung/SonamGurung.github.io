@@ -26,7 +26,7 @@ const ListItem = ({
         <div className="my-0.5 text-xs">{time}</div>
         <h3 className="font-semibold">{position}</h3>
         <div className="mb-4 font-normal">
-            <a href={companyLink} target="_blank" rel="noreferrer">
+            <a href={companyLink} target="_blank" rel="noreferrer" className='text-teal-500 font-semibold'>
                 {company}
             </a>
         </div>

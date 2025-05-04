@@ -7,7 +7,7 @@ const Homepage = () => {
         <div className="flex flex-col gap-8">
             <div className="flex flex-col">
                 <img src={profileImg} alt="profile-image" className="w-36 rounded-xl" />
-                <h2>Sonam Gurung</h2>
+                <h1>Sonam Gurung</h1>
                 <p>Master's student at <a href="https://www.usd.edu/" className="text-teal-500 font-semibold" target="_blank">University of South Dakota</a></p>
                 <div className="flex gap-6">
                     <Link to={"mailto:sonamrinzingurung@gmail.com"} target="_blank">

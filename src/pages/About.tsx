@@ -4,7 +4,7 @@ import profileImg from "../assets/me.jpg"
 
 const About = () => {
     return (
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-6">
             <h1>About Me</h1>
 
             <div className="flex flex-col gap-6">
@@ -25,12 +25,14 @@ const About = () => {
                             degree: "MS in Computer Science",
                             from: "2024",
                             to: "Present",
+                            instituteLink: "https://usd.edu/"
                         },
                         {
                             institution: "University of Wolverhampton",
                             degree: "BS in Computer Science with Honors",
                             from: "2021",
                             to: "2023",
+                            instituteLink: "https://www.wlv.ac.uk/"
                         },
                     ]}
                 />

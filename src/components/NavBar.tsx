@@ -1,6 +1,6 @@
 import { NavLink } from "react-router";
 import { IoMdDownload } from "react-icons/io";
-import resume from "../assets/resume.pdf"
+import resume from "../assets/sonam-gurung-resume.pdf"
 
 const NavBar = () => {
     return (
